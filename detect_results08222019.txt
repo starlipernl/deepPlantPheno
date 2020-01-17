@@ -1,0 +1,2088 @@
+/content/drive/My Drive/Colab Notebooks/PyTorch-YOLOv3
+Namespace(batch_size=1, checkpoint_model=None, class_path='data/custom/classes.names', conf_thres=0.8, image_folder='data/custom/test_images', img_size=416, model_def='config/yolov3-custom.cfg', n_cpu=0, nms_thres=0.4, weights_path='checkpoints/yolov3_ckpt_98.pth')
+
+Performing object detection:
+	+ Batch 0, Inference Time: 0:00:01.478776
+	+ Batch 1, Inference Time: 0:00:01.332815
+	+ Batch 2, Inference Time: 0:00:01.408704
+	+ Batch 3, Inference Time: 0:00:01.282768
+	+ Batch 4, Inference Time: 0:00:01.329442
+	+ Batch 5, Inference Time: 0:00:01.322755
+	+ Batch 6, Inference Time: 0:00:01.295790
+	+ Batch 7, Inference Time: 0:00:01.466565
+	+ Batch 8, Inference Time: 0:00:01.257600
+	+ Batch 9, Inference Time: 0:00:01.459211
+	+ Batch 10, Inference Time: 0:00:01.477381
+	+ Batch 11, Inference Time: 0:00:01.367489
+	+ Batch 12, Inference Time: 0:00:01.295336
+	+ Batch 13, Inference Time: 0:00:01.345717
+	+ Batch 14, Inference Time: 0:00:01.341770
+	+ Batch 15, Inference Time: 0:00:01.423685
+	+ Batch 16, Inference Time: 0:00:01.333652
+	+ Batch 17, Inference Time: 0:00:01.382901
+	+ Batch 18, Inference Time: 0:00:01.562762
+	+ Batch 19, Inference Time: 0:00:01.689854
+	+ Batch 20, Inference Time: 0:00:01.292541
+	+ Batch 21, Inference Time: 0:00:01.352160
+	+ Batch 22, Inference Time: 0:00:01.582622
+	+ Batch 23, Inference Time: 0:00:01.298723
+	+ Batch 24, Inference Time: 0:00:01.345220
+	+ Batch 25, Inference Time: 0:00:01.346852
+	+ Batch 26, Inference Time: 0:00:01.478696
+	+ Batch 27, Inference Time: 0:00:01.454256
+	+ Batch 28, Inference Time: 0:00:01.336368
+	+ Batch 29, Inference Time: 0:00:01.376573
+	+ Batch 30, Inference Time: 0:00:01.239638
+	+ Batch 31, Inference Time: 0:00:01.555595
+	+ Batch 32, Inference Time: 0:00:01.538788
+	+ Batch 33, Inference Time: 0:00:01.346962
+	+ Batch 34, Inference Time: 0:00:01.598807
+	+ Batch 35, Inference Time: 0:00:01.327842
+	+ Batch 36, Inference Time: 0:00:01.546987
+	+ Batch 37, Inference Time: 0:00:01.324070
+	+ Batch 38, Inference Time: 0:00:01.308836
+	+ Batch 39, Inference Time: 0:00:01.564804
+	+ Batch 40, Inference Time: 0:00:01.418050
+	+ Batch 41, Inference Time: 0:00:01.439354
+	+ Batch 42, Inference Time: 0:00:01.531587
+	+ Batch 43, Inference Time: 0:00:01.321326
+	+ Batch 44, Inference Time: 0:00:01.424533
+	+ Batch 45, Inference Time: 0:00:01.481292
+	+ Batch 46, Inference Time: 0:00:01.408736
+	+ Batch 47, Inference Time: 0:00:01.464963
+	+ Batch 48, Inference Time: 0:00:01.498431
+	+ Batch 49, Inference Time: 0:00:01.348856
+	+ Batch 50, Inference Time: 0:00:01.323306
+	+ Batch 51, Inference Time: 0:00:01.298779
+	+ Batch 52, Inference Time: 0:00:01.282489
+	+ Batch 53, Inference Time: 0:00:01.233245
+	+ Batch 54, Inference Time: 0:00:01.821122
+	+ Batch 55, Inference Time: 0:00:01.361150
+	+ Batch 56, Inference Time: 0:00:01.312564
+	+ Batch 57, Inference Time: 0:00:01.387077
+	+ Batch 58, Inference Time: 0:00:01.332906
+	+ Batch 59, Inference Time: 0:00:01.285852
+	+ Batch 60, Inference Time: 0:00:01.328243
+	+ Batch 61, Inference Time: 0:00:01.472128
+	+ Batch 62, Inference Time: 0:00:01.246253
+	+ Batch 63, Inference Time: 0:00:01.495937
+	+ Batch 64, Inference Time: 0:00:01.342701
+	+ Batch 65, Inference Time: 0:00:01.355757
+	+ Batch 66, Inference Time: 0:00:02.005909
+	+ Batch 67, Inference Time: 0:00:01.493060
+	+ Batch 68, Inference Time: 0:00:01.287979
+	+ Batch 69, Inference Time: 0:00:01.334631
+	+ Batch 70, Inference Time: 0:00:01.432738
+	+ Batch 71, Inference Time: 0:00:01.367495
+	+ Batch 72, Inference Time: 0:00:01.406058
+	+ Batch 73, Inference Time: 0:00:01.264874
+	+ Batch 74, Inference Time: 0:00:01.404768
+	+ Batch 75, Inference Time: 0:00:01.205281
+	+ Batch 76, Inference Time: 0:00:01.340459
+	+ Batch 77, Inference Time: 0:00:01.302779
+	+ Batch 78, Inference Time: 0:00:01.231170
+	+ Batch 79, Inference Time: 0:00:01.288078
+	+ Batch 80, Inference Time: 0:00:01.506630
+	+ Batch 81, Inference Time: 0:00:01.198578
+	+ Batch 82, Inference Time: 0:00:01.385526
+	+ Batch 83, Inference Time: 0:00:01.229877
+	+ Batch 84, Inference Time: 0:00:01.325781
+	+ Batch 85, Inference Time: 0:00:01.278855
+	+ Batch 86, Inference Time: 0:00:01.366944
+	+ Batch 87, Inference Time: 0:00:01.232522
+	+ Batch 88, Inference Time: 0:00:01.192590
+	+ Batch 89, Inference Time: 0:00:01.346262
+	+ Batch 90, Inference Time: 0:00:01.184348
+	+ Batch 91, Inference Time: 0:00:01.246062
+	+ Batch 92, Inference Time: 0:00:01.217249
+	+ Batch 93, Inference Time: 0:00:01.162770
+	+ Batch 94, Inference Time: 0:00:01.377335
+	+ Batch 95, Inference Time: 0:00:01.114762
+	+ Batch 96, Inference Time: 0:00:01.358368
+	+ Batch 97, Inference Time: 0:00:01.106160
+	+ Batch 98, Inference Time: 0:00:01.730477
+	+ Batch 99, Inference Time: 0:00:01.343495
+	+ Batch 100, Inference Time: 0:00:01.493791
+	+ Batch 101, Inference Time: 0:00:01.358225
+	+ Batch 102, Inference Time: 0:00:01.592161
+	+ Batch 103, Inference Time: 0:00:01.150315
+	+ Batch 104, Inference Time: 0:00:01.162750
+	+ Batch 105, Inference Time: 0:00:01.275250
+	+ Batch 106, Inference Time: 0:00:01.213063
+	+ Batch 107, Inference Time: 0:00:01.118710
+	+ Batch 108, Inference Time: 0:00:01.203831
+	+ Batch 109, Inference Time: 0:00:01.780648
+	+ Batch 110, Inference Time: 0:00:01.350296
+	+ Batch 111, Inference Time: 0:00:01.130800
+	+ Batch 112, Inference Time: 0:00:01.190502
+	+ Batch 113, Inference Time: 0:00:01.208146
+	+ Batch 114, Inference Time: 0:00:01.310884
+	+ Batch 115, Inference Time: 0:00:01.203265
+	+ Batch 116, Inference Time: 0:00:01.265971
+	+ Batch 117, Inference Time: 0:00:01.107433
+	+ Batch 118, Inference Time: 0:00:01.410601
+	+ Batch 119, Inference Time: 0:00:01.121768
+	+ Batch 120, Inference Time: 0:00:01.232103
+	+ Batch 121, Inference Time: 0:00:01.238046
+	+ Batch 122, Inference Time: 0:00:01.195260
+	+ Batch 123, Inference Time: 0:00:01.360440
+	+ Batch 124, Inference Time: 0:00:01.199106
+	+ Batch 125, Inference Time: 0:00:01.519453
+	+ Batch 126, Inference Time: 0:00:01.296933
+	+ Batch 127, Inference Time: 0:00:01.230860
+	+ Batch 128, Inference Time: 0:00:01.204235
+	+ Batch 129, Inference Time: 0:00:01.195211
+	+ Batch 130, Inference Time: 0:00:01.394588
+	+ Batch 131, Inference Time: 0:00:01.164766
+	+ Batch 132, Inference Time: 0:00:01.334369
+	+ Batch 133, Inference Time: 0:00:01.188514
+	+ Batch 134, Inference Time: 0:00:01.338319
+	+ Batch 135, Inference Time: 0:00:01.251493
+	+ Batch 136, Inference Time: 0:00:01.283234
+	+ Batch 137, Inference Time: 0:00:01.338619
+	+ Batch 138, Inference Time: 0:00:01.320058
+	+ Batch 139, Inference Time: 0:00:01.202987
+	+ Batch 140, Inference Time: 0:00:01.279534
+	+ Batch 141, Inference Time: 0:00:01.203606
+	+ Batch 142, Inference Time: 0:00:01.253508
+	+ Batch 143, Inference Time: 0:00:01.320422
+	+ Batch 144, Inference Time: 0:00:01.196609
+	+ Batch 145, Inference Time: 0:00:01.264786
+	+ Batch 146, Inference Time: 0:00:01.382343
+	+ Batch 147, Inference Time: 0:00:01.394876
+	+ Batch 148, Inference Time: 0:00:01.298887
+
+Saving images:
+(0) Image: 'data/custom/test_images/Copy of 526.png'
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99980
+(1) Image: 'data/custom/test_images/Copy of 527.png'
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99978
+	+ Label: tip, Conf: 0.99979
+(2) Image: 'data/custom/test_images/Copy of 528.png'
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99979
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99919
+	+ Label: tip, Conf: 0.99999
+(3) Image: 'data/custom/test_images/Copy of 529.png'
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99829
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99677
+	+ Label: tip, Conf: 0.99985
+(4) Image: 'data/custom/test_images/Copy of 530.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99616
+	+ Label: , Conf: 0.99392
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.98362
+	+ Label: , Conf: 0.99392
+	+ Label: , Conf: 0.99457
+(5) Image: 'data/custom/test_images/Copy of 531.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99993
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99991
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99434
+	+ Label: , Conf: 0.99679
+	+ Label: , Conf: 0.95353
+(6) Image: 'data/custom/test_images/Copy of 532.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99993
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99993
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.98902
+	+ Label: , Conf: 0.99912
+	+ Label: , Conf: 0.99793
+	+ Label: , Conf: 0.99001
+(7) Image: 'data/custom/test_images/Copy of 533.png'
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99991
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99926
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 0.99987
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99901
+(8) Image: 'data/custom/test_images/Copy of 534.png'
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 0.99949
+	+ Label: , Conf: 0.99994
+	+ Label: , Conf: 0.99953
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99948
+(9) Image: 'data/custom/test_images/Copy of 535.png'
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99991
+	+ Label: , Conf: 0.99991
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99440
+	+ Label: , Conf: 0.99976
+	+ Label: , Conf: 0.99963
+(10) Image: 'data/custom/test_images/Copy of 536.png'
+	+ Label: , Conf: 0.99995
+	+ Label: , Conf: 0.99986
+	+ Label: tip, Conf: 0.99992
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99977
+	+ Label: , Conf: 0.99976
+	+ Label: tip, Conf: 0.99992
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 0.99940
+	+ Label: , Conf: 0.99926
+	+ Label: , Conf: 0.99990
+(11) Image: 'data/custom/test_images/Copy of 537.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99951
+	+ Label: , Conf: 0.99995
+	+ Label: , Conf: 0.99960
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99985
+	+ Label: , Conf: 0.99993
+	+ Label: , Conf: 0.99992
+(12) Image: 'data/custom/test_images/Copy of 538.png'
+	+ Label: , Conf: 0.99995
+	+ Label: tip, Conf: 0.99976
+	+ Label: , Conf: 0.99964
+	+ Label: , Conf: 0.99990
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99989
+	+ Label: , Conf: 0.99972
+	+ Label: , Conf: 0.99987
+	+ Label: tip, Conf: 0.99990
+	+ Label: , Conf: 0.99971
+	+ Label: tip, Conf: 0.99481
+(13) Image: 'data/custom/test_images/Copy of 539.png'
+	+ Label: , Conf: 0.99995
+	+ Label: , Conf: 0.99985
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 0.99994
+	+ Label: , Conf: 0.99653
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99985
+	+ Label: tip, Conf: 0.99980
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99986
+	+ Label: tip, Conf: 0.99642
+	+ Label: tip, Conf: 0.99661
+(14) Image: 'data/custom/test_images/Copy of 540.png'
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99991
+	+ Label: tip, Conf: 0.99946
+	+ Label: , Conf: 0.99991
+	+ Label: , Conf: 0.99997
+	+ Label: , Conf: 0.99082
+	+ Label: , Conf: 0.99967
+	+ Label: tip, Conf: 0.99991
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99960
+	+ Label: , Conf: 0.99986
+	+ Label: , Conf: 0.99962
+(15) Image: 'data/custom/test_images/Copy of 541.png'
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99944
+	+ Label: , Conf: 0.99990
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99981
+	+ Label: , Conf: 0.99561
+	+ Label: , Conf: 0.99994
+	+ Label: tip, Conf: 0.99992
+	+ Label: tip, Conf: 0.99973
+	+ Label: tip, Conf: 0.99467
+	+ Label: , Conf: 0.99989
+	+ Label: tip, Conf: 0.99888
+(16) Image: 'data/custom/test_images/Copy of 542.png'
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99987
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99992
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99930
+	+ Label: , Conf: 0.99958
+	+ Label: tip, Conf: 0.99987
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99988
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99905
+	+ Label: tip, Conf: 0.99986
+(17) Image: 'data/custom/test_images/Copy of 543.png'
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99909
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99992
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99799
+	+ Label: , Conf: 0.99973
+	+ Label: tip, Conf: 0.99741
+	+ Label: , Conf: 0.99986
+(18) Image: 'data/custom/test_images/Copy of 544.png'
+	+ Label: , Conf: 0.99993
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 0.99966
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99997
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 0.99987
+	+ Label: , Conf: 0.99976
+	+ Label: tip, Conf: 0.99993
+	+ Label: tip, Conf: 0.99985
+	+ Label: tip, Conf: 0.96396
+	+ Label: , Conf: 0.99989
+	+ Label: , Conf: 0.99750
+(19) Image: 'data/custom/test_images/Copy of 545.png'
+/usr/local/lib/python3.6/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99975
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 0.99971
+	+ Label: tip, Conf: 0.99992
+	+ Label: , Conf: 0.99994
+	+ Label: tip, Conf: 0.99987
+	+ Label: tip, Conf: 0.99555
+	+ Label: , Conf: 0.99997
+	+ Label: , Conf: 0.99990
+	+ Label: , Conf: 0.99983
+	+ Label: , Conf: 0.99856
+	+ Label: tip, Conf: 0.99957
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99960
+(20) Image: 'data/custom/test_images/Copy of 546.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99978
+	+ Label: tip, Conf: 0.99993
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99979
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99995
+	+ Label: , Conf: 0.99986
+	+ Label: tip, Conf: 0.99392
+	+ Label: tip, Conf: 0.98294
+	+ Label: tip, Conf: 0.99987
+	+ Label: , Conf: 0.99972
+	+ Label: , Conf: 0.99992
+	+ Label: tip, Conf: 0.99594
+	+ Label: tip, Conf: 0.99975
+	+ Label: tip, Conf: 0.99936
+	+ Label: tip, Conf: 0.99411
+	+ Label: , Conf: 0.99981
+	+ Label: , Conf: 0.98618
+	+ Label: , Conf: 0.99985
+(21) Image: 'data/custom/test_images/Copy of 548.png'
+	+ Label: , Conf: 0.99814
+	+ Label: , Conf: 0.99841
+	+ Label: tip, Conf: 0.99723
+	+ Label: , Conf: 0.96152
+	+ Label: tip, Conf: 0.99686
+(22) Image: 'data/custom/test_images/Copy of 549.png'
+	+ Label: tip, Conf: 0.99964
+	+ Label: , Conf: 0.99960
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99993
+	+ Label: , Conf: 0.97592
+	+ Label: tip, Conf: 0.99936
+	+ Label: tip, Conf: 0.90325
+(23) Image: 'data/custom/test_images/Copy of 550.png'
+	+ Label: tip, Conf: 0.99984
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99968
+	+ Label: , Conf: 0.99975
+	+ Label: tip, Conf: 0.99598
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.93518
+	+ Label: tip, Conf: 0.98799
+(24) Image: 'data/custom/test_images/Copy of 551.png'
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99976
+	+ Label: tip, Conf: 0.99896
+	+ Label: tip, Conf: 0.99864
+(25) Image: 'data/custom/test_images/Copy of 552.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99965
+(26) Image: 'data/custom/test_images/Copy of 553.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99993
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99990
+	+ Label: tip, Conf: 0.99924
+	+ Label: , Conf: 0.99987
+(27) Image: 'data/custom/test_images/Copy of 554.png'
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99993
+	+ Label: , Conf: 0.99994
+	+ Label: tip, Conf: 0.99995
+(28) Image: 'data/custom/test_images/Copy of 555.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99985
+	+ Label: tip, Conf: 0.99924
+(29) Image: 'data/custom/test_images/Copy of 556.png'
+	+ Label: tip, Conf: 0.99991
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 0.99988
+	+ Label: tip, Conf: 0.99987
+(30) Image: 'data/custom/test_images/Copy of 557.png'
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99993
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99962
+(31) Image: 'data/custom/test_images/Copy of 558.png'
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99993
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99991
+	+ Label: tip, Conf: 0.99633
+(32) Image: 'data/custom/test_images/Copy of 559.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99989
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99964
+	+ Label: tip, Conf: 0.99612
+	+ Label: tip, Conf: 0.99977
+	+ Label: , Conf: 0.99966
+(33) Image: 'data/custom/test_images/Copy of 560.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99991
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99452
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99972
+	+ Label: , Conf: 0.99958
+(34) Image: 'data/custom/test_images/Copy of 561.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99442
+	+ Label: tip, Conf: 0.99939
+	+ Label: tip, Conf: 0.99675
+	+ Label: tip, Conf: 0.98726
+	+ Label: , Conf: 0.99989
+	+ Label: tip, Conf: 0.99844
+(35) Image: 'data/custom/test_images/Copy of 562.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99626
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99767
+	+ Label: , Conf: 0.99994
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99992
+	+ Label: , Conf: 0.99994
+	+ Label: tip, Conf: 0.99224
+(36) Image: 'data/custom/test_images/Copy of 563.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99989
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99545
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 0.99967
+	+ Label: tip, Conf: 0.97432
+(37) Image: 'data/custom/test_images/Copy of 564.png'
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99984
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99509
+	+ Label: tip, Conf: 0.99987
+	+ Label: tip, Conf: 0.99384
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99991
+	+ Label: , Conf: 0.99984
+	+ Label: tip, Conf: 0.99840
+	+ Label: , Conf: 0.99979
+(38) Image: 'data/custom/test_images/Copy of 565.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99498
+	+ Label: tip, Conf: 0.99990
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99989
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99961
+	+ Label: tip, Conf: 0.99231
+	+ Label: tip, Conf: 0.99897
+(39) Image: 'data/custom/test_images/Copy of 566.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99956
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99981
+	+ Label: , Conf: 0.99657
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99993
+	+ Label: , Conf: 0.99975
+	+ Label: tip, Conf: 0.99992
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99993
+	+ Label: tip, Conf: 0.98984
+	+ Label: tip, Conf: 0.98610
+(40) Image: 'data/custom/test_images/Copy of 567.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99783
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99903
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99990
+	+ Label: tip, Conf: 0.99959
+	+ Label: , Conf: 0.99981
+(41) Image: 'data/custom/test_images/Copy of 568.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99985
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99983
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99666
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99972
+	+ Label: , Conf: 0.99995
+	+ Label: , Conf: 0.99983
+	+ Label: tip, Conf: 0.99949
+	+ Label: , Conf: 0.99889
+	+ Label: , Conf: 0.99968
+(42) Image: 'data/custom/test_images/Copy of 569.png'
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99567
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99962
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99208
+	+ Label: , Conf: 0.99942
+	+ Label: , Conf: 0.99970
+	+ Label: , Conf: 0.99928
+(43) Image: 'data/custom/test_images/Copy of 570.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99982
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99551
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99989
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99899
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99979
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 0.99964
+(44) Image: 'data/custom/test_images/Copy of 571.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99986
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99988
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.98922
+	+ Label: , Conf: 0.98831
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 0.99990
+	+ Label: , Conf: 0.99969
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99992
+	+ Label: , Conf: 0.99988
+(45) Image: 'data/custom/test_images/Copy of 572.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99985
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99639
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99974
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.98910
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99997
+	+ Label: , Conf: 0.99982
+	+ Label: , Conf: 0.99985
+	+ Label: , Conf: 0.99993
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.99996
+(46) Image: 'data/custom/test_images/Copy of 573.png'
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99991
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99989
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99980
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99322
+	+ Label: tip, Conf: 0.99310
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99984
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99980
+	+ Label: , Conf: 0.99995
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99931
+	+ Label: , Conf: 0.99984
+	+ Label: , Conf: 0.99986
+	+ Label: , Conf: 0.98731
+(47) Image: 'data/custom/test_images/Copy of 575.png'
+	+ Label: tip, Conf: 0.98944
+	+ Label: , Conf: 0.97386
+	+ Label: tip, Conf: 0.99855
+(48) Image: 'data/custom/test_images/Copy of 576.png'
+	+ Label: tip, Conf: 0.99955
+	+ Label: , Conf: 0.99930
+	+ Label: tip, Conf: 0.99988
+(49) Image: 'data/custom/test_images/Copy of 577.png'
+	+ Label: tip, Conf: 0.99985
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.99905
+	+ Label: tip, Conf: 0.99990
+	+ Label: tip, Conf: 0.96498
+	+ Label: tip, Conf: 0.99836
+	+ Label: tip, Conf: 0.99977
+(50) Image: 'data/custom/test_images/Copy of 578.png'
+	+ Label: , Conf: 0.99994
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99843
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99987
+	+ Label: tip, Conf: 0.99963
+	+ Label: tip, Conf: 0.99957
+(51) Image: 'data/custom/test_images/Copy of 579.png'
+	+ Label: , Conf: 0.99966
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99995
+	+ Label: tip, Conf: 0.99984
+	+ Label: tip, Conf: 0.99970
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99971
+	+ Label: tip, Conf: 0.98979
+(52) Image: 'data/custom/test_images/Copy of 580.png'
+	+ Label: , Conf: 0.99960
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99991
+	+ Label: , Conf: 0.99994
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99986
+	+ Label: , Conf: 0.99980
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 0.99647
+(53) Image: 'data/custom/test_images/Copy of 581.png'
+	+ Label: , Conf: 0.99963
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99989
+	+ Label: tip, Conf: 0.99991
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99994
+(54) Image: 'data/custom/test_images/Copy of 582.png'
+	+ Label: , Conf: 0.99946
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99974
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99855
+(55) Image: 'data/custom/test_images/Copy of 583.png'
+	+ Label: , Conf: 0.99967
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99819
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99990
+	+ Label: tip, Conf: 0.99980
+(56) Image: 'data/custom/test_images/Copy of 584.png'
+	+ Label: , Conf: 0.99954
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99990
+	+ Label: tip, Conf: 0.99902
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99990
+(57) Image: 'data/custom/test_images/Copy of 585.png'
+	+ Label: , Conf: 0.99986
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99992
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.99997
+(58) Image: 'data/custom/test_images/Copy of 586.png'
+	+ Label: , Conf: 0.99993
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99926
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 0.99989
+	+ Label: , Conf: 0.99991
+	+ Label: , Conf: 0.99982
+(59) Image: 'data/custom/test_images/Copy of 587.png'
+	+ Label: , Conf: 0.99992
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99982
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99995
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99992
+(60) Image: 'data/custom/test_images/Copy of 588.png'
+	+ Label: , Conf: 0.99987
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99997
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99987
+	+ Label: , Conf: 0.99994
+	+ Label: , Conf: 0.99975
+	+ Label: tip, Conf: 0.99996
+(61) Image: 'data/custom/test_images/Copy of 589.png'
+	+ Label: , Conf: 0.99991
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99987
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99983
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99994
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99993
+	+ Label: tip, Conf: 0.99975
+	+ Label: , Conf: 0.99943
+(62) Image: 'data/custom/test_images/Copy of 590.png'
+	+ Label: , Conf: 0.99991
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99991
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99995
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99995
+	+ Label: tip, Conf: 0.99992
+	+ Label: tip, Conf: 0.99984
+	+ Label: , Conf: 0.99977
+(63) Image: 'data/custom/test_images/Copy of 591.png'
+	+ Label: , Conf: 0.99990
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99993
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99994
+	+ Label: tip, Conf: 0.99989
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99977
+	+ Label: , Conf: 0.99987
+(64) Image: 'data/custom/test_images/Copy of 592.png'
+	+ Label: , Conf: 0.99986
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99989
+	+ Label: tip, Conf: 0.99989
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99987
+	+ Label: , Conf: 0.99998
+(65) Image: 'data/custom/test_images/Copy of 593.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99983
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99990
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99988
+	+ Label: , Conf: 0.99984
+	+ Label: , Conf: 0.99999
+(66) Image: 'data/custom/test_images/Copy of 594.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99988
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99992
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99992
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99993
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99991
+	+ Label: tip, Conf: 0.99958
+	+ Label: , Conf: 0.99950
+	+ Label: , Conf: 0.99993
+(67) Image: 'data/custom/test_images/Copy of 595.png'
+	+ Label: , Conf: 0.99985
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99987
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99990
+	+ Label: tip, Conf: 0.99992
+	+ Label: , Conf: 0.99995
+	+ Label: tip, Conf: 0.99986
+	+ Label: , Conf: 0.99960
+	+ Label: , Conf: 0.99995
+	+ Label: , Conf: 0.99968
+(68) Image: 'data/custom/test_images/Copy of 596.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99956
+	+ Label: tip, Conf: 0.99986
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99986
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99989
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99984
+	+ Label: tip, Conf: 0.99805
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99986
+(69) Image: 'data/custom/test_images/Copy of 597.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99954
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99987
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99980
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99802
+	+ Label: , Conf: 0.99992
+	+ Label: , Conf: 0.99997
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99989
+(70) Image: 'data/custom/test_images/Copy of 598.png'
+	+ Label: tip, Conf: 0.99990
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99960
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99987
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99990
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99990
+	+ Label: tip, Conf: 0.99780
+	+ Label: , Conf: 0.99941
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 0.99989
+	+ Label: , Conf: 0.99982
+(71) Image: 'data/custom/test_images/Copy of 599.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.99894
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 0.99988
+	+ Label: tip, Conf: 0.99991
+	+ Label: tip, Conf: 0.99993
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99979
+	+ Label: , Conf: 0.99972
+	+ Label: , Conf: 0.99991
+(72) Image: 'data/custom/test_images/Copy of 600.png'
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99990
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99841
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.99995
+	+ Label: tip, Conf: 0.99993
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 0.99994
+	+ Label: , Conf: 0.99934
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99187
+	+ Label: tip, Conf: 0.99950
+	+ Label: tip, Conf: 0.99989
+	+ Label: , Conf: 0.99955
+	+ Label: , Conf: 0.99960
+	+ Label: tip, Conf: 0.99957
+(73) Image: 'data/custom/test_images/Copy of 603.png'
+	+ Label: tip, Conf: 0.99974
+	+ Label: , Conf: 0.99881
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99493
+(74) Image: 'data/custom/test_images/Copy of 604.png'
+	+ Label: tip, Conf: 0.99974
+	+ Label: , Conf: 0.99876
+	+ Label: tip, Conf: 0.99985
+	+ Label: tip, Conf: 0.99985
+	+ Label: , Conf: 0.99870
+	+ Label: tip, Conf: 0.99970
+	+ Label: tip, Conf: 0.84858
+(75) Image: 'data/custom/test_images/Copy of 605.png'
+	+ Label: , Conf: 0.99924
+	+ Label: , Conf: 0.99974
+	+ Label: tip, Conf: 0.99979
+	+ Label: tip, Conf: 0.99905
+(76) Image: 'data/custom/test_images/Copy of 606.png'
+	+ Label: , Conf: 0.99971
+	+ Label: , Conf: 0.99968
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99233
+	+ Label: tip, Conf: 0.98297
+	+ Label: tip, Conf: 0.99873
+	+ Label: tip, Conf: 0.99043
+(77) Image: 'data/custom/test_images/Copy of 607.png'
+	+ Label: , Conf: 0.99984
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99961
+	+ Label: tip, Conf: 0.98984
+	+ Label: tip, Conf: 0.99385
+	+ Label: , Conf: 0.73930
+(78) Image: 'data/custom/test_images/Copy of 608.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99989
+	+ Label: , Conf: 0.99981
+	+ Label: , Conf: 0.98053
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 0.99609
+	+ Label: tip, Conf: 0.99964
+(79) Image: 'data/custom/test_images/Copy of 609.png'
+	+ Label: , Conf: 0.99989
+	+ Label: , Conf: 0.99964
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99474
+	+ Label: tip, Conf: 0.99864
+	+ Label: tip, Conf: 0.99941
+	+ Label: , Conf: 0.99827
+	+ Label: tip, Conf: 0.99998
+(80) Image: 'data/custom/test_images/Copy of 610.png'
+	+ Label: , Conf: 0.99990
+	+ Label: , Conf: 0.99975
+	+ Label: tip, Conf: 0.99949
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99410
+	+ Label: , Conf: 0.99779
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99767
+(81) Image: 'data/custom/test_images/Copy of 611.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99979
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99868
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99778
+	+ Label: , Conf: 0.98615
+	+ Label: , Conf: 0.99450
+	+ Label: tip, Conf: 0.98619
+	+ Label: , Conf: 0.90754
+	+ Label: , Conf: 0.99803
+(82) Image: 'data/custom/test_images/Copy of 612.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99991
+	+ Label: , Conf: 0.99989
+	+ Label: , Conf: 0.99704
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99334
+	+ Label: , Conf: 0.97415
+	+ Label: tip, Conf: 0.99968
+	+ Label: tip, Conf: 0.99988
+	+ Label: , Conf: 0.98134
+(83) Image: 'data/custom/test_images/Copy of 613.png'
+	+ Label: , Conf: 0.99990
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.99926
+	+ Label: , Conf: 0.99661
+	+ Label: , Conf: 0.99720
+	+ Label: , Conf: 0.99827
+	+ Label: , Conf: 0.98027
+	+ Label: tip, Conf: 0.99989
+(84) Image: 'data/custom/test_images/Copy of 614.png'
+	+ Label: , Conf: 0.99993
+	+ Label: tip, Conf: 0.99993
+	+ Label: , Conf: 0.99970
+	+ Label: tip, Conf: 0.99945
+	+ Label: tip, Conf: 0.99985
+	+ Label: tip, Conf: 0.99979
+	+ Label: , Conf: 0.99514
+	+ Label: , Conf: 0.99348
+	+ Label: , Conf: 0.98684
+	+ Label: tip, Conf: 0.99920
+	+ Label: , Conf: 0.99462
+	+ Label: , Conf: 0.99692
+(85) Image: 'data/custom/test_images/Copy of 615.png'
+	+ Label: , Conf: 0.99978
+	+ Label: , Conf: 0.99988
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99916
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99957
+	+ Label: , Conf: 0.99270
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.98757
+	+ Label: , Conf: 0.99684
+(86) Image: 'data/custom/test_images/Copy of 616.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99988
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99993
+	+ Label: , Conf: 0.99657
+	+ Label: , Conf: 0.99991
+	+ Label: , Conf: 0.99972
+	+ Label: tip, Conf: 0.99936
+	+ Label: tip, Conf: 0.99966
+	+ Label: tip, Conf: 0.99984
+(87) Image: 'data/custom/test_images/Copy of 617.png'
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99982
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99982
+	+ Label: tip, Conf: 0.99992
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.98955
+	+ Label: tip, Conf: 0.99986
+	+ Label: tip, Conf: 0.99988
+	+ Label: tip, Conf: 0.99987
+	+ Label: tip, Conf: 0.99973
+(88) Image: 'data/custom/test_images/Copy of 618.png'
+	+ Label: , Conf: 0.99979
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99105
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99981
+	+ Label: tip, Conf: 0.99988
+	+ Label: tip, Conf: 0.99964
+	+ Label: , Conf: 0.99963
+	+ Label: , Conf: 0.69736
+(89) Image: 'data/custom/test_images/Copy of 619.png'
+	+ Label: , Conf: 0.99962
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99975
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99986
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99993
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.98905
+	+ Label: , Conf: 0.98608
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.98383
+	+ Label: , Conf: 0.99945
+(90) Image: 'data/custom/test_images/Copy of 620.png'
+	+ Label: , Conf: 0.99992
+	+ Label: tip, Conf: 0.99978
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 0.99995
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99299
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.97818
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99954
+	+ Label: , Conf: 0.99949
+(91) Image: 'data/custom/test_images/Copy of 621.png'
+	+ Label: , Conf: 0.99991
+	+ Label: tip, Conf: 0.99958
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99993
+	+ Label: , Conf: 0.99772
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99997
+	+ Label: , Conf: 0.99085
+	+ Label: , Conf: 0.99989
+	+ Label: tip, Conf: 0.99991
+	+ Label: tip, Conf: 0.99992
+	+ Label: tip, Conf: 0.99813
+	+ Label: , Conf: 0.99981
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 0.99993
+	+ Label: tip, Conf: 0.99729
+(92) Image: 'data/custom/test_images/Copy of 622.png'
+	+ Label: , Conf: 0.99976
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99992
+	+ Label: tip, Conf: 0.99986
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99978
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99989
+	+ Label: tip, Conf: 0.99386
+	+ Label: , Conf: 0.99981
+	+ Label: , Conf: 0.99986
+	+ Label: , Conf: 0.99990
+	+ Label: , Conf: 0.99960
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.95994
+	+ Label: , Conf: 0.99999
+(93) Image: 'data/custom/test_images/Copy of 623.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99980
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99980
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99991
+	+ Label: , Conf: 0.99978
+	+ Label: tip, Conf: 0.99444
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99989
+	+ Label: , Conf: 0.99992
+	+ Label: , Conf: 0.99993
+	+ Label: , Conf: 0.99979
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99918
+	+ Label: , Conf: 0.97303
+	+ Label: tip, Conf: 0.99971
+	+ Label: , Conf: 0.99999
+(94) Image: 'data/custom/test_images/Copy of 624.png'
+	+ Label: , Conf: 0.99985
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99974
+	+ Label: tip, Conf: 0.99811
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99976
+	+ Label: , Conf: 0.99992
+	+ Label: tip, Conf: 0.99970
+	+ Label: tip, Conf: 0.99956
+	+ Label: , Conf: 0.99844
+	+ Label: , Conf: 0.99981
+	+ Label: , Conf: 0.99972
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99995
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99991
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99496
+(95) Image: 'data/custom/test_images/Copy of 625.png'
+	+ Label: , Conf: 0.99974
+	+ Label: tip, Conf: 0.99991
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99976
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99976
+	+ Label: tip, Conf: 0.99957
+	+ Label: , Conf: 0.99966
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 0.99954
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99942
+	+ Label: , Conf: 0.99990
+	+ Label: , Conf: 0.99992
+	+ Label: , Conf: 0.99999
+(96) Image: 'data/custom/test_images/Copy of 626.png'
+	+ Label: , Conf: 0.99971
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99982
+	+ Label: tip, Conf: 0.99871
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99989
+	+ Label: , Conf: 0.99966
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99992
+	+ Label: , Conf: 0.99800
+	+ Label: , Conf: 0.99987
+	+ Label: , Conf: 0.99817
+	+ Label: tip, Conf: 1.00000
+(97) Image: 'data/custom/test_images/Copy of 627.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99981
+	+ Label: tip, Conf: 0.99987
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99764
+	+ Label: tip, Conf: 0.99905
+	+ Label: tip, Conf: 0.99991
+	+ Label: tip, Conf: 0.99483
+	+ Label: , Conf: 0.99993
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99936
+	+ Label: , Conf: 0.99995
+	+ Label: tip, Conf: 0.99823
+	+ Label: , Conf: 0.99753
+	+ Label: tip, Conf: 0.99992
+	+ Label: , Conf: 0.99882
+	+ Label: , Conf: 0.99976
+	+ Label: , Conf: 0.98303
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99987
+(98) Image: 'data/custom/test_images/Copy of 628.png'
+	+ Label: , Conf: 0.99973
+	+ Label: , Conf: 0.99753
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99316
+(99) Image: 'data/custom/test_images/Copy of 629.png'
+	+ Label: , Conf: 0.99813
+	+ Label: , Conf: 0.99986
+	+ Label: tip, Conf: 0.99997
+(100) Image: 'data/custom/test_images/Copy of 630.png'
+	+ Label: , Conf: 0.99908
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99942
+	+ Label: tip, Conf: 0.99979
+	+ Label: tip, Conf: 0.99992
+(101) Image: 'data/custom/test_images/Copy of 631.png'
+	+ Label: , Conf: 0.99958
+	+ Label: tip, Conf: 0.99993
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.99998
+(102) Image: 'data/custom/test_images/Copy of 632.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99974
+	+ Label: , Conf: 0.99995
+	+ Label: tip, Conf: 0.99993
+	+ Label: tip, Conf: 0.99862
+	+ Label: tip, Conf: 0.98860
+	+ Label: tip, Conf: 0.99969
+(103) Image: 'data/custom/test_images/Copy of 633.png'
+	+ Label: , Conf: 0.99991
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99993
+	+ Label: tip, Conf: 0.99985
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.96861
+	+ Label: tip, Conf: 0.95522
+	+ Label: , Conf: 0.99970
+(104) Image: 'data/custom/test_images/Copy of 634.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99944
+	+ Label: tip, Conf: 0.99953
+	+ Label: , Conf: 0.99890
+	+ Label: , Conf: 0.98066
+(105) Image: 'data/custom/test_images/Copy of 635.png'
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99553
+	+ Label: tip, Conf: 0.99969
+	+ Label: , Conf: 0.99962
+	+ Label: , Conf: 0.99398
+	+ Label: tip, Conf: 0.99978
+(106) Image: 'data/custom/test_images/Copy of 636.png'
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99993
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99939
+	+ Label: tip, Conf: 0.99973
+	+ Label: tip, Conf: 0.98357
+(107) Image: 'data/custom/test_images/Copy of 637.png'
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99989
+	+ Label: tip, Conf: 0.99999
+(108) Image: 'data/custom/test_images/Copy of 638.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99778
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99994
+	+ Label: tip, Conf: 0.99684
+(109) Image: 'data/custom/test_images/Copy of 639.png'
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99994
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99993
+(110) Image: 'data/custom/test_images/Copy of 640.png'
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99990
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99990
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99994
+	+ Label: , Conf: 0.99837
+(111) Image: 'data/custom/test_images/Copy of 641.png'
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99989
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99973
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99977
+	+ Label: , Conf: 0.99988
+	+ Label: , Conf: 0.99995
+(112) Image: 'data/custom/test_images/Copy of 642.png'
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99990
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99995
+	+ Label: tip, Conf: 0.99972
+	+ Label: , Conf: 0.99994
+(113) Image: 'data/custom/test_images/Copy of 643.png'
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99997
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99990
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99980
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99997
+	+ Label: , Conf: 0.99997
+(114) Image: 'data/custom/test_images/Copy of 644.png'
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99972
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99999
+(115) Image: 'data/custom/test_images/Copy of 645.png'
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99992
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99981
+	+ Label: , Conf: 0.99987
+(116) Image: 'data/custom/test_images/Copy of 646.png'
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99993
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99979
+	+ Label: tip, Conf: 0.99978
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99980
+	+ Label: , Conf: 1.00000
+(117) Image: 'data/custom/test_images/Copy of 647.png'
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99992
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99980
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99990
+(118) Image: 'data/custom/test_images/Copy of 648.png'
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99983
+	+ Label: , Conf: 0.99985
+(119) Image: 'data/custom/test_images/Copy of 649.png'
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99988
+	+ Label: tip, Conf: 0.99987
+	+ Label: , Conf: 0.99954
+	+ Label: tip, Conf: 0.99993
+	+ Label: , Conf: 0.99983
+	+ Label: , Conf: 0.99756
+(120) Image: 'data/custom/test_images/Copy of 650.png'
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99994
+	+ Label: tip, Conf: 0.99989
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99995
+	+ Label: tip, Conf: 0.99991
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99993
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.99969
+(121) Image: 'data/custom/test_images/Copy of 651.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99967
+	+ Label: tip, Conf: 0.99979
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99990
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 0.99988
+	+ Label: tip, Conf: 0.99903
+(122) Image: 'data/custom/test_images/Copy of 652.png'
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99979
+	+ Label: , Conf: 0.99995
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99988
+	+ Label: , Conf: 0.99995
+	+ Label: tip, Conf: 0.99989
+	+ Label: , Conf: 0.99958
+	+ Label: tip, Conf: 0.99976
+	+ Label: , Conf: 0.99992
+	+ Label: tip, Conf: 0.99346
+(123) Image: 'data/custom/test_images/Copy of 653.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99992
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99995
+	+ Label: , Conf: 0.99912
+	+ Label: , Conf: 0.99994
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 0.99909
+	+ Label: tip, Conf: 0.99958
+	+ Label: , Conf: 0.99994
+	+ Label: , Conf: 0.99918
+	+ Label: tip, Conf: 0.99948
+	+ Label: tip, Conf: 0.99765
+(124) Image: 'data/custom/test_images/Copy of 655.png'
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.99828
+	+ Label: , Conf: 0.99992
+(125) Image: 'data/custom/test_images/Copy of 656.png'
+	+ Label: , Conf: 0.99965
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99973
+(126) Image: 'data/custom/test_images/Copy of 657.png'
+	+ Label: , Conf: 0.99973
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99945
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99953
+	+ Label: tip, Conf: 0.99569
+(127) Image: 'data/custom/test_images/Copy of 658.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99989
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99989
+	+ Label: tip, Conf: 0.98069
+(128) Image: 'data/custom/test_images/Copy of 659.png'
+	+ Label: , Conf: 0.99957
+	+ Label: , Conf: 0.99993
+	+ Label: tip, Conf: 0.99963
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99994
+	+ Label: tip, Conf: 0.98790
+(129) Image: 'data/custom/test_images/Copy of 660.png'
+	+ Label: , Conf: 0.99964
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99981
+	+ Label: tip, Conf: 0.99079
+	+ Label: tip, Conf: 0.97983
+	+ Label: tip, Conf: 0.99990
+(130) Image: 'data/custom/test_images/Copy of 661.png'
+	+ Label: , Conf: 0.99990
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99428
+	+ Label: tip, Conf: 0.99873
+(131) Image: 'data/custom/test_images/Copy of 662.png'
+	+ Label: , Conf: 0.99981
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99744
+	+ Label: tip, Conf: 0.99985
+	+ Label: tip, Conf: 0.99982
+	+ Label: , Conf: 0.93255
+(132) Image: 'data/custom/test_images/Copy of 663.png'
+	+ Label: , Conf: 0.99984
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99994
+	+ Label: , Conf: 0.99631
+	+ Label: tip, Conf: 0.99985
+	+ Label: tip, Conf: 0.99983
+	+ Label: , Conf: 0.99924
+	+ Label: , Conf: 0.99165
+(133) Image: 'data/custom/test_images/Copy of 664.png'
+	+ Label: , Conf: 0.99989
+	+ Label: tip, Conf: 0.99982
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 0.99993
+	+ Label: tip, Conf: 0.99139
+	+ Label: , Conf: 0.99966
+	+ Label: tip, Conf: 0.99983
+	+ Label: , Conf: 0.97432
+	+ Label: tip, Conf: 0.99965
+(134) Image: 'data/custom/test_images/Copy of 665.png'
+	+ Label: , Conf: 0.99996
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99859
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.98853
+	+ Label: , Conf: 0.97762
+	+ Label: , Conf: 0.99853
+	+ Label: tip, Conf: 0.67810
+(135) Image: 'data/custom/test_images/Copy of 666.png'
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99983
+	+ Label: , Conf: 0.99997
+	+ Label: , Conf: 0.99919
+	+ Label: , Conf: 0.99990
+	+ Label: tip, Conf: 0.99967
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99981
+	+ Label: tip, Conf: 0.99996
+(136) Image: 'data/custom/test_images/Copy of 667.png'
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99739
+	+ Label: , Conf: 0.99989
+	+ Label: , Conf: 0.98426
+	+ Label: tip, Conf: 0.91075
+(137) Image: 'data/custom/test_images/Copy of 668.png'
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 0.99989
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99762
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.99996
+	+ Label: tip, Conf: 0.99930
+	+ Label: , Conf: 0.99989
+	+ Label: tip, Conf: 0.99775
+	+ Label: tip, Conf: 0.88650
+(138) Image: 'data/custom/test_images/Copy of 669.png'
+	+ Label: tip, Conf: 0.99988
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99862
+	+ Label: tip, Conf: 0.99988
+	+ Label: tip, Conf: 0.99985
+	+ Label: , Conf: 0.99998
+	+ Label: tip, Conf: 0.99977
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.97532
+	+ Label: , Conf: 0.97206
+	+ Label: , Conf: 0.99933
+(139) Image: 'data/custom/test_images/Copy of 670.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99974
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99615
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99995
+	+ Label: , Conf: 0.99157
+	+ Label: , Conf: 0.99931
+	+ Label: , Conf: 0.99258
+	+ Label: , Conf: 0.95499
+(140) Image: 'data/custom/test_images/Copy of 671.png'
+	+ Label: tip, Conf: 0.99991
+	+ Label: , Conf: 0.99979
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99992
+	+ Label: tip, Conf: 0.99935
+	+ Label: tip, Conf: 0.99382
+	+ Label: , Conf: 0.99204
+	+ Label: , Conf: 0.99896
+	+ Label: tip, Conf: 0.99992
+	+ Label: , Conf: 0.97953
+	+ Label: , Conf: 0.99892
+(141) Image: 'data/custom/test_images/Copy of 672.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99985
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 0.99957
+	+ Label: tip, Conf: 0.99960
+	+ Label: , Conf: 0.99628
+	+ Label: , Conf: 0.99986
+	+ Label: , Conf: 0.99876
+	+ Label: , Conf: 0.97985
+	+ Label: , Conf: 0.99915
+	+ Label: tip, Conf: 0.99767
+	+ Label: tip, Conf: 0.74927
+(142) Image: 'data/custom/test_images/Copy of 673.png'
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99991
+	+ Label: , Conf: 0.99693
+	+ Label: , Conf: 0.99963
+	+ Label: tip, Conf: 0.99238
+	+ Label: , Conf: 0.99263
+	+ Label: , Conf: 0.99765
+	+ Label: tip, Conf: 0.99781
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99980
+(143) Image: 'data/custom/test_images/Copy of 674.png'
+	+ Label: tip, Conf: 0.99987
+	+ Label: tip, Conf: 0.99987
+	+ Label: , Conf: 1.00000
+	+ Label: , Conf: 0.99952
+	+ Label: , Conf: 0.99958
+	+ Label: , Conf: 0.99902
+	+ Label: tip, Conf: 0.99981
+	+ Label: , Conf: 0.99400
+	+ Label: , Conf: 0.99955
+	+ Label: tip, Conf: 0.99994
+	+ Label: , Conf: 0.99624
+	+ Label: , Conf: 0.98491
+	+ Label: tip, Conf: 0.99847
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 0.99334
+	+ Label: tip, Conf: 0.99958
+	+ Label: tip, Conf: 0.97620
+(144) Image: 'data/custom/test_images/Copy of 675.png'
+	+ Label: tip, Conf: 0.99992
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99992
+	+ Label: tip, Conf: 0.99995
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99502
+	+ Label: , Conf: 0.99994
+	+ Label: tip, Conf: 0.99993
+	+ Label: , Conf: 0.99993
+	+ Label: , Conf: 0.99988
+	+ Label: tip, Conf: 0.99842
+	+ Label: , Conf: 0.97764
+	+ Label: , Conf: 0.97040
+	+ Label: tip, Conf: 0.99984
+	+ Label: , Conf: 0.98637
+	+ Label: tip, Conf: 0.99078
+	+ Label: , Conf: 0.97943
+	+ Label: , Conf: 0.99934
+	+ Label: , Conf: 0.84149
+(145) Image: 'data/custom/test_images/Copy of 676.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99977
+	+ Label: , Conf: 0.99992
+	+ Label: , Conf: 0.99909
+	+ Label: , Conf: 0.99949
+	+ Label: tip, Conf: 0.98616
+	+ Label: , Conf: 0.99665
+	+ Label: , Conf: 0.99942
+	+ Label: tip, Conf: 0.99951
+	+ Label: , Conf: 0.95044
+	+ Label: , Conf: 0.99822
+	+ Label: tip, Conf: 0.99974
+	+ Label: , Conf: 0.99860
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.99648
+	+ Label: tip, Conf: 0.99928
+(146) Image: 'data/custom/test_images/Copy of 677.png'
+	+ Label: tip, Conf: 0.99982
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99962
+	+ Label: tip, Conf: 0.99998
+	+ Label: , Conf: 1.00000
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 0.99991
+	+ Label: tip, Conf: 0.99743
+	+ Label: tip, Conf: 0.99215
+	+ Label: tip, Conf: 0.99933
+	+ Label: , Conf: 0.99984
+	+ Label: , Conf: 0.99780
+	+ Label: , Conf: 0.99975
+	+ Label: , Conf: 0.99977
+	+ Label: tip, Conf: 0.99997
+	+ Label: , Conf: 0.98049
+	+ Label: , Conf: 0.99971
+	+ Label: tip, Conf: 0.99995
+	+ Label: tip, Conf: 0.96517
+	+ Label: , Conf: 0.99935
+	+ Label: , Conf: 0.99601
+	+ Label: tip, Conf: 0.99981
+	+ Label: , Conf: 0.99973
+	+ Label: , Conf: 0.99991
+	+ Label: , Conf: 0.99964
+	+ Label: tip, Conf: 0.99986
+(147) Image: 'data/custom/test_images/Copy of 678.png'
+	+ Label: tip, Conf: 0.99998
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99999
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99996
+	+ Label: , Conf: 0.99981
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99992
+	+ Label: , Conf: 0.99960
+	+ Label: , Conf: 0.99962
+	+ Label: tip, Conf: 0.99536
+	+ Label: tip, Conf: 0.99997
+	+ Label: tip, Conf: 0.99967
+	+ Label: tip, Conf: 0.96630
+	+ Label: , Conf: 0.99999
+	+ Label: tip, Conf: 0.99969
+	+ Label: , Conf: 0.99980
+	+ Label: tip, Conf: 0.99628
+	+ Label: , Conf: 0.99839
+	+ Label: , Conf: 0.99995
+	+ Label: tip, Conf: 0.99977
+	+ Label: , Conf: 0.99968
+	+ Label: tip, Conf: 0.99728
+(148) Image: 'data/custom/test_images/Copy of 679.png'
+	+ Label: tip, Conf: 1.00000
+	+ Label: , Conf: 0.99964
+	+ Label: tip, Conf: 0.99999
+	+ Label: tip, Conf: 1.00000
+	+ Label: tip, Conf: 0.99992
+	+ Label: tip, Conf: 0.99990
+	+ Label: , Conf: 0.99997
+	+ Label: tip, Conf: 0.99701
+	+ Label: tip, Conf: 0.99989
+	+ Label: , Conf: 0.99996
+	+ Label: , Conf: 0.99998
+	+ Label: , Conf: 0.99969
+	+ Label: , Conf: 0.99999
+	+ Label: , Conf: 0.99946
+	+ Label: tip, Conf: 0.99964
+	+ Label: tip, Conf: 0.99983
+	+ Label: tip, Conf: 0.99990
+	+ Label: tip, Conf: 0.99220
+	+ Label: tip, Conf: 0.97483
+	+ Label: tip, Conf: 0.99971
+	+ Label: , Conf: 0.99890
+	+ Label: , Conf: 0.98809
+	+ Label: tip, Conf: 0.99734
+	+ Label: tip, Conf: 0.99993
